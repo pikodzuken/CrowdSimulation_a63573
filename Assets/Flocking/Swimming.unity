@@ -364,7 +364,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260379327}
   m_LocalRotation: {x: -0.12792668, y: 0.82200503, z: -0.20380104, w: -0.516147}
-  m_LocalPosition: {x: 27.73579, y: 21.879145, z: 7.174347}
+  m_LocalPosition: {x: 25.077522, y: 19.051792, z: 4.5561185}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -404,8 +404,9 @@ MonoBehaviour:
   numFish: 20
   allFish: []
   swimLimits: {x: 5, y: 5, z: 5}
-  minSpeed: 1.04
-  maxSpeed: 2.39
+  goalPos: {x: 0, y: 0, z: 0}
+  minSpeed: 0.29
+  maxSpeed: 1.12
   neighbourDistance: 10
   rotationSpeed: 2.61
 --- !u!4 &1994878003
